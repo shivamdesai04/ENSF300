@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-23T03:05:42.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="wLZFe0Jgyw5Ln6-lmG5I" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-23T03:06:52.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yuoz_gz2yvSiNf2S7Bgc" version="20.4.2" type="github">
   <diagram id="yZq5IONLJEsk0bZvG2Z2" name="Page-1">
-    <mxGraphModel dx="460" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="602" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,10 +34,10 @@
           <mxGeometry x="270" y="135" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-11" value="CAR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="260" width="50" height="30" as="geometry" />
+          <mxGeometry x="85" y="260" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-12" value="TRUCK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="320" width="60" height="30" as="geometry" />
+          <mxGeometry x="85" y="320" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zert8HyA5gWy37JvKC_g-13" target="Zert8HyA5gWy37JvKC_g-2">
           <mxGeometry relative="1" as="geometry">
@@ -49,10 +49,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-13" value="CAR VIN" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="65" y="290" width="55" height="20" as="geometry" />
+          <mxGeometry x="95" y="290" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-14" value="Engine_size" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="290" width="75" height="20" as="geometry" />
+          <mxGeometry x="150" y="290" width="75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zert8HyA5gWy37JvKC_g-15" target="Zert8HyA5gWy37JvKC_g-2">
           <mxGeometry relative="1" as="geometry">
@@ -66,10 +66,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-15" value="TRUCK VIN" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="65" y="350" width="75" height="20" as="geometry" />
+          <mxGeometry x="95" y="350" width="75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-16" value="Tonnage" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="350" width="55" height="20" as="geometry" />
+          <mxGeometry x="170" y="350" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zert8HyA5gWy37JvKC_g-17" target="Zert8HyA5gWy37JvKC_g-2">
           <mxGeometry relative="1" as="geometry">
@@ -81,13 +81,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-17" value="SUV VIN" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="65" y="420" width="55" height="20" as="geometry" />
+          <mxGeometry x="95" y="420" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-18" value="No_seats" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="420" width="65" height="20" as="geometry" />
+          <mxGeometry x="150" y="420" width="65" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-19" value="SUV" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="390" width="50" height="30" as="geometry" />
+          <mxGeometry x="85" y="390" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zert8HyA5gWy37JvKC_g-24" value="Date" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="340" width="50" height="20" as="geometry" />
