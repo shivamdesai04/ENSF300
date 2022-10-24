@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T02:42:36.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="_7Qa1Ph2SRC41aqVi5oE" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T02:45:49.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Q1bS-Bz8iq9PvRcXsAAR" version="20.5.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="706" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="565" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SuhrrZY9guo8pr_NnLNK-1" value="BOOK" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SuhrrZY9guo8pr_NnLNK-4" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="630" y="780" width="120" height="60" as="geometry" />
@@ -24,6 +24,9 @@
         </mxCell>
         <mxCell id="SuhrrZY9guo8pr_NnLNK-6" value="LIBRARY_BRANCH" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SuhrrZY9guo8pr_NnLNK-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="SuhrrZY9guo8pr_NnLNK-7" target="SuhrrZY9guo8pr_NnLNK-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SuhrrZY9guo8pr_NnLNK-7" value="PUBLISHER" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="360" width="120" height="60" as="geometry" />
@@ -66,6 +69,27 @@
         </mxCell>
         <mxCell id="SuhrrZY9guo8pr_NnLNK-18" value="Name" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="760" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SuhrrZY9guo8pr_NnLNK-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SuhrrZY9guo8pr_NnLNK-24" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="SuhrrZY9guo8pr_NnLNK-23">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SuhrrZY9guo8pr_NnLNK-25" value="BOOK_AUTHOR" style="whiteSpace=wrap;html=1;" vertex="1" parent="SuhrrZY9guo8pr_NnLNK-23">
+          <mxGeometry x="5" y="5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SuhrrZY9guo8pr_NnLNK-28" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="SuhrrZY9guo8pr_NnLNK-26" target="SuhrrZY9guo8pr_NnLNK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SuhrrZY9guo8pr_NnLNK-26" value="PUBLISH" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="380" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SuhrrZY9guo8pr_NnLNK-29" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SuhrrZY9guo8pr_NnLNK-30" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="360" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
