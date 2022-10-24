@@ -1,26 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T02:37:05.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hsJRG8PDtcuMf3f3siZf" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T02:38:20.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1Mi_iWUxplTJzrk0USZ6" version="20.5.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="511" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="869" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SuhrrZY9guo8pr_NnLNK-1" value="BOOK" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SuhrrZY9guo8pr_NnLNK-4" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="290" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SuhrrZY9guo8pr_NnLNK-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="SuhrrZY9guo8pr_NnLNK-4">
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SuhrrZY9guo8pr_NnLNK-3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="SuhrrZY9guo8pr_NnLNK-4">
+        <mxCell id="SuhrrZY9guo8pr_NnLNK-3" value="BOOK_COPIES" style="whiteSpace=wrap;html=1;" vertex="1" parent="SuhrrZY9guo8pr_NnLNK-4">
           <mxGeometry x="5" y="5" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SuhrrZY9guo8pr_NnLNK-5" value="BORROWER" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SuhrrZY9guo8pr_NnLNK-6" value="LIBRARY_BRANCH" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SuhrrZY9guo8pr_NnLNK-7" value="PUBLISHER" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
