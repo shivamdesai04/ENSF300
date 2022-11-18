@@ -106,3 +106,17 @@ WHERE sex = 'F');
 
 -- Display Table
 SELECT * FROM individ_w;
+
+-- Part 2, 13
+/*
+ The command fails as Olympic ID is a foreign key it references Participant 
+ which does not have a corresponding value to the newly inserted.
+ */
+
+-- Part 2, 14
+/*
+
+The command fails as the value we try to delete is a foreign key 
+and when we try to delete that there are dependant values which have no relation to each other.
+
+*/
