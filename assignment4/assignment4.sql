@@ -1,6 +1,6 @@
 use olympicarchery;
 -- Part 2, 1
-/* SELECT FName,LName,Country FROM participant;*/
+ SELECT FName,LName,Country FROM participant;
 
 -- Part 2, 2
 SELECT FName,LName,Country FROM participant 
@@ -42,7 +42,7 @@ SELECT CName FROM country
 WHERE (AllTimeGold+AllTimeSilver+AllTimeBrONze) >= 5;
 
 -- Part 2, 8
-/*SELECT Country,count(ID.OlympicID) as 'Total medals'
+SELECT Country,count(ID.OlympicID) as 'Total medals'
 FROM participant as p
 LEFT JOIN
 (SELECT Olympian as 'OlympicID' FROM individual_results
@@ -50,16 +50,16 @@ UNION ALL
 SELECT Member1 FROM team WHERE TeamID IN (SELECT Team FROM team_results)) as ID 
 ON p.OlympicID = ID.OlympicID
 GROUP BY Country
-ORDER BY count(ID.OlympicID) DESC;*/
+ORDER BY count(ID.OlympicID) DESC;
 
 -- Part 2, 9
-/*SELECT OlympicID,FName,LName FROM participant
+SELECT OlympicID,FName,LName FROM participant
 WHERE OlympicID IN 
 (SELECT OlympicID FROM athlete
-WHERE FirstGames = 'Tokyo 2020');*/
+WHERE FirstGames = 'Tokyo 2020');
 
 -- Part 2, 10
-/*SELECT p.FName,p.LName,a.BirthYear
+SELECT p.FName,p.LName,a.BirthYear
 FROM participant as p
 LEFT JOIN athlete as a
 ON p.OlympicID = a.OlympicID
@@ -67,10 +67,10 @@ WHERE p.OlympicID IN
 (SELECT OlympicID FROM athlete
 WHERE BirthYear = (SELECT min(BirthYear) FROM athlete)
 OR    BirthYear = (SELECT max(BirthYear) FROM athlete))
-ORDER BY a.BirthYear;*/
+ORDER BY a.BirthYear;
 
 -- Part 2, 11
-/*
+
 -- Create View
 DROP VIEW IF EXISTS team_athletes;
 CREATE VIEW team_athletes as
@@ -82,10 +82,10 @@ ON p.OlympicID = a.OlympicID
 ORDER BY BirthYear;
 
 -- Display View
-SELECT * FROM team_athletes;*/
+SELECT * FROM team_athletes;
 
 -- Part 2, 12
-/*
+
 -- Create Table
 DROP TABLE IF EXISTS INDIVID_W;
 CREATE TABLE INDIVID_W (
@@ -105,10 +105,4 @@ WHERE OlympicID IN
 WHERE sex = 'F');
 
 -- Display Table
-SELECT * FROM individ_w;*/
-
-
-
-
-
-
+SELECT * FROM individ_w;
