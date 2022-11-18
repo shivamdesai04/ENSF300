@@ -120,3 +120,12 @@ The command fails as the value we try to delete is a foreign key
 and when we try to delete that there are dependant values which have no relation to each other.
 
 */
+
+-- Part 2, 15
+/*
+
+The UNIQUE constraint should be considered for the team table becasue it consists of TEAM IDs and members with OLYMPIC IDs.
+No two teams or members have the same ID and will therefore be unique.
+To implement this the ATHLETE and PARTICIPANT tables would need to be involved
+
+*/
