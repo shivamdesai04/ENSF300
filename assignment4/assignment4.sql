@@ -3,43 +3,43 @@ use olympicarchery;
 /* SELECT FName,LName,Country FROM participant;*/
 
 -- Part 2, 2
-/*SELECT FName,LName,Country FROM participant 
+SELECT FName,LName,Country FROM participant 
 WHERE OlympicID IN 
 (SELECT OlympicID FROM coach 
-WHERE orientation = 'Pending');*/
+WHERE orientation = 'Pending');
 
 -- Part 2, 3
-/*SELECT Country,count(OlympicID) as '# Athletes' 
+SELECT Country,count(OlympicID) as '# Athletes' 
 FROM participant 
 WHERE OlympicID IN 
 (SELECT OlympicID FROM athlete) 
-GROUP BY Country;*/
+GROUP BY Country;
 
 -- Part 2, 4
-/*SELECT p.OlympicID,a.BirthYear
+SELECT p.OlympicID,a.BirthYear
 FROM participant as p
 LEFT OUTER JOIN athlete as a
 ON p.OlympicID = a.OlympicID
-ORDER BY BirthYear;*/
+ORDER BY BirthYear;
 
 -- Part 2, 5
-/*SELECT Country
+SELECT Country
 FROM participant
 GROUP BY Country
-HAVING count(OlympicID) > 1;*/
+HAVING count(OlympicID) > 1;
 
 -- Part 2, 6
-/*SELECT OlympicID,FName,LName,Country FROM participant WHERE OlympicID IN (
+SELECT OlympicID,FName,LName,Country FROM participant WHERE OlympicID IN (
 SELECT Olympian FROM individual_results 									UNION
 SELECT Member1 FROM team WHERE TeamID IN (SELECT Team FROM team_results) 	UNION
 SELECT Member2 FROM team WHERE TeamID IN (SELECT Team FROM team_results) 	UNION
 SELECT Member3 FROM team WHERE TeamID IN (SELECT Team FROM team_results)	UNION
 SELECT Member4 FROM team WHERE TeamID IN (SELECT Team FROM team_results)	UNION
-SELECT Member5 FROM team WHERE TeamID IN (SELECT Team FROM team_results)   );*/
+SELECT Member5 FROM team WHERE TeamID IN (SELECT Team FROM team_results)   );
 
 -- Part 2, 7
-/*SELECT CName FROM country
-WHERE (AllTimeGold+AllTimeSilver+AllTimeBrONze) >= 5;*/
+SELECT CName FROM country
+WHERE (AllTimeGold+AllTimeSilver+AllTimeBrONze) >= 5;
 
 -- Part 2, 8
 /*SELECT Country,count(ID.OlympicID) as 'Total medals'
