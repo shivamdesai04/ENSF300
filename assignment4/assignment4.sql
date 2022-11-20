@@ -127,7 +127,7 @@ and when we try to delete that there are dependant values which have no relation
 -- Part 2, 15
 /*
 
-The UNIQUE constraint should be considered for the team table becasue it consists of TEAM IDs and members with OLYMPIC IDs.
+The UNIQUE constraint should be considered for the team table because it consists of TEAM IDs and members with OLYMPIC IDs.
 No two teams or members have the same ID and will therefore be unique.
 To implement this the ATHLETE and PARTICIPANT tables would need to be involved
 
