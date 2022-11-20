@@ -26,6 +26,8 @@ ORDER BY BirthYear;
 -- Part 2, 5
 SELECT Country
 FROM participant
+WHERE OlympicID in(
+SELECT OlympicID from athlete)
 GROUP BY Country
 HAVING count(OlympicID) > 1;
 
@@ -54,7 +56,7 @@ GROUP BY Country
 ORDER BY count(ID.OlympicID) DESC;
 
 -- Part 2, 9
-SELECT OlympicID,FName,LName FROM participant
+SELECT FName,LName FROM participant
 WHERE OlympicID IN 
 (SELECT OlympicID FROM athlete
 WHERE FirstGames = 'Tokyo 2020');
