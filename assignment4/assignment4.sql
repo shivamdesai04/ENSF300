@@ -1,6 +1,7 @@
 use olympicarchery;
 -- Part 2, 1
  SELECT FName,LName,Country FROM participant;
+ where OlympicID in (SELECT OlympicID FROM athlete);
 
 -- Part 2, 2
 SELECT FName,LName,Country FROM participant 
