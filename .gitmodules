@@ -7,3 +7,6 @@
 [submodule "FinalProject/museum-project-team-1-1"]
 	path = FinalProject/museum-project-team-1-1
 	url = https://github.com/Maan-Khedr-ENSF-300/museum-project-team-1-1.git
+[submodule "assignment5/assignment-5-olympicarchery-application-team-1-1"]
+	path = assignment5/assignment-5-olympicarchery-application-team-1-1
+	url = https://github.com/Maan-Khedr-ENSF-300/assignment-5-olympicarchery-application-team-1-1.git
